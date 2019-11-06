@@ -1,0 +1,35 @@
+#collapseInfo {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#collapseInfo.collapse:not(.show) {
+    height: 4.5em !important;
+    overflow: hidden !important;
+
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+}
+
+
+#collapseInfo.collapse:show {
+    height: auto !important;
+    overflow: auto !important;
+}
+
+#collapseInfo.collapsing{
+    height: 4.5em;
+}
+
+.media .media-body {
+    font-size: 14px;
+    line-height: 1.5;
+}
+#author-data p:last-child{
+    height: 6em;
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+}

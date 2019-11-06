@@ -1,0 +1,64 @@
+{
+  "_from": "cordova-plugin-firebase-analytics",
+  "_id": "cordova-plugin-firebase-analytics@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-mwrhEK+65VjfbSrin0DpOq462wj92LFu4TuTLNwEcRZ2UhHVRE1hfVkvOZpV+aBZD9OXAp9Ctio9kBCXC5ALMg==",
+  "_location": "/cordova-plugin-firebase-analytics",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-firebase-analytics",
+    "name": "cordova-plugin-firebase-analytics",
+    "escapedName": "cordova-plugin-firebase-analytics",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-analytics/-/cordova-plugin-firebase-analytics-3.0.0.tgz",
+  "_shasum": "af2cdd047c2e747de3c78c80eb5f2d546dddc128",
+  "_spec": "cordova-plugin-firebase-analytics",
+  "_where": "K:\\New folder\\comma_1029_release\\comma",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-analytics/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-firebase-analytics",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for Firebase Analytics",
+  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-analytics#readme",
+  "keywords": [
+    "cordova",
+    "firebase",
+    "analytics",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-firebase-analytics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-analytics.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
+  },
+  "version": "3.0.0"
+}

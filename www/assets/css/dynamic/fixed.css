@@ -1,0 +1,73 @@
+.user-image img{
+    width: 100%;
+}
+
+.bottom-wrap-content {
+    height: 64px;
+}
+
+.curriculum-schedule .curriculum-item ul > li p {
+    max-height: 2.5em !important;
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+div.progress{
+    cursor: pointer;
+}
+.player-controls .player-dragger {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.choose-option {
+    z-index: 160 !important;
+}
+
+.choose-date {
+    z-index: 160 !important;
+}
+.course-dwld .item p{
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 2.5em;
+}
+
+.discussion-box .meta a img{
+    margin-right: 0px !important;
+}
+
+ul .rating {
+    display: none !important;
+}
+
+.tmp_hide {
+    display: none !important;
+}
+
+.course-intro ul li {
+    margin: 0 15px !important;
+}
+
+.ellipsis-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.download-courses-time {
+    background: url(assets/images/checked.svg) no-repeat left;
+    background-size: 10px;
+    padding-left: 14px;
+}
+.download-courses-listend {
+    color: #3db1af;
+    float: right;
+}
+
+.download-courses-not-listend {
+    float: right;
+}

@@ -1,0 +1,10 @@
+/* #Media Queries
+================================================== */
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+.screen-1 .reg-btns{ margin-top:30px; margin-bottom:30px;}
+}
+
+@media (max-width: 400px) {
+body, .form-control, .btn , .dropdown-menu, .input-group-text, .popover-header{ font-size:12pt;}
+} 

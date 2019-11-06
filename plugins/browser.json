@@ -1,0 +1,75 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-firebase-analytics": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-firebase-messaging": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-googleplus": {
+      "WEB_APPLICATION_CLIENT_ID": "apps.googleusercontent.com.591618737856-03iljt0iemgqiquag6pcpijdncvjlijr",
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-background-mode": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-support-android-plugin": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-exit": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-smtp-client": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "phonegap-plugin-mobile-accessibility": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-facebook4": {
+      "APP_ID": "401403393670118",
+      "APP_NAME": "Comma",
+      "FACEBOOK_HYBRID_APP_EVENTS": "false",
+      "FACEBOOK_ANDROID_SDK_VERSION": "5.5.2",
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-android-support-gradle-release": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-music-controls": {
+      "PACKAGE_NAME": "com.app.comma"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.app.comma"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.app.comma"
+    }
+  }
+}

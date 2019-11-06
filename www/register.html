@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Comma</title>
+    <!--[if lt IE 9]><script src="js/html5shiv.min.js"></script><![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+</head>
+
+<body class="register">
+
+    <div class="container screen-1">
+        <div class="page-back">
+            <a href="#" class="back">
+                <span class="sr-only">Previous Page</span>
+            </a>
+            <span>註冊一個新帳號</span>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 my-auto screen-1-content">
+                <div class="screen-container">
+                    <div class="logo logo-inner">
+                        <a href="#">
+                            <img src="assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="rl-form">
+                        <form action="javascript:register();">
+                            <div class="form-group">
+                                <!-- <div class="input-group mb-2"><div class="input-group-prepend"><div class="input-group-text"><i class="fas fa-user"></i></div></div><input type="text" class="form-control" id="name" placeholder="輸入姓名/暱稱"></div> -->
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text radius-xl">
+                                            <img src="assets/images/form-icon/user.png" alt="">
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control radius-xl" id="name" placeholder="輸入姓名/暱稱">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text radius-xl">
+                                            <img src="assets/images/form-icon/mailbox.png" alt="">
+                                        </div>
+                                    </div>
+                                    <input type="email" class="form-control radius-xl" id="email" placeholder="電子信箱即為登入帳號">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- <div class="input-group mb-2"><div class="input-group-prepend"><div class="input-group-text"><i class="fas fa-key"></i></div></div><input type="password" class="form-control" id="password" placeholder="密碼請填寫 6~12 字元"></div> -->
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text radius-xl">
+                                            <img src="assets/images/form-icon/key.png" alt="">
+                                        </div>
+                                    </div>
+                                    <input type="password" class="form-control radius-xl" id="password" placeholder="密碼請填寫 6~12 字元">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- <div class="input-group mb-2"><div class="input-group-prepend"><div class="input-group-text"><i class="fas fa-key"></i></div></div><input type="password" class="form-control" id="password_confirm" placeholder="再次確認密碼"></div> -->
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text radius-xl">
+                                            <img src="assets/images/form-icon/key.png" alt="">
+                                        </div>
+                                    </div>
+                                    <input type="password" class="form-control radius-xl" id="password_confirm" placeholder="再次確認密碼">
+                                </div>
+                            </div>
+                            <input type="submit" class="btn btn-primary btn-block" disabled value="註冊" id="button_submit">
+                        </form>
+                    </div>
+                    <div class="or-text">
+                        <span>或以其他方式登入</span>
+                    </div>
+                    <ul class="social-login">
+                        <li>
+                            <a href="javascript:signInWithFacebook();">
+                                <img src="assets/images/facebook.png" alt="">
+                                <span>facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:logInWithGmail();">
+                                <img src="assets/images/google-plus.png" alt="">
+                                <span>google</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.2/lottie.min.js" type="text/javascript"></script>
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- 0612-Additional -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- App & Common Module -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="assets/script/app.js"></script>
+    <script src="assets/script/ui.helper.js"></script>
+
+    <!-- Firebase Module -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>
+    <script src="assets/script/firebase.js"></script>
+
+    <!--Web SNS Login Module -->
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+    <!-- Main Script Module-->
+    <script src="assets/script/register.js"></script>
+
+</body>
+
+</html>

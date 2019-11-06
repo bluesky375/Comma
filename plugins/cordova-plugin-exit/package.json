@@ -1,0 +1,68 @@
+{
+  "_from": "cordova-plugin-exit@^1.0.2",
+  "_id": "cordova-plugin-exit@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-5mKM/b0fOanRh7AX1O7EX9zfPg8mMl/rtmPQjk1AzfWwr1Wrb+Ff7lzavux1YCrmPZgiSI1kBfvnajaKUA2eqQ==",
+  "_location": "/cordova-plugin-exit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-exit@^1.0.2",
+    "name": "cordova-plugin-exit",
+    "escapedName": "cordova-plugin-exit",
+    "rawSpec": "^1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-exit/-/cordova-plugin-exit-1.0.3.tgz",
+  "_shasum": "ee08fa302c6417373d9fce4daf47d301a9e4693d",
+  "_spec": "cordova-plugin-exit@^1.0.2",
+  "_where": "/Volumes/WORK/Comma/comma",
+  "author": {
+    "name": "Rakesh Walisheter"
+  },
+  "bugs": {
+    "url": "https://github.com/cakuki/cordova-plugin-exit/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-exit",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for exiting the app programmatically for Android, iOS and WP",
+  "engines": {
+    "cordovaDependencies": {
+      "5.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/cakuki/cordova-plugin-exit#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "exit",
+    "terminate",
+    "quit"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-exit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakuki/cordova-plugin-exit.git"
+  },
+  "version": "1.0.3"
+}

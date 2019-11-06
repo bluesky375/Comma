@@ -1,0 +1,71 @@
+{
+  "_from": "git+https://github.com/CWBudde/cordova-plugin-smtp-client.git",
+  "_id": "cordova-plugin-smtp-client@2.0.11",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-smtp-client",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/CWBudde/cordova-plugin-smtp-client.git",
+    "rawSpec": "git+https://github.com/CWBudde/cordova-plugin-smtp-client.git",
+    "saveSpec": "git+https://github.com/CWBudde/cordova-plugin-smtp-client.git",
+    "fetchSpec": "https://github.com/CWBudde/cordova-plugin-smtp-client.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/CWBudde/cordova-plugin-smtp-client.git#8431e625747ce5c8b98e1330ca3c90f23b3297bd",
+  "_spec": "git+https://github.com/CWBudde/cordova-plugin-smtp-client.git",
+  "_where": "/Volumes/WORK/Cordova/emailclient",
+  "author": {
+    "name": "Christian-W.Budde",
+    "email": "CWBudde@pcjv.de",
+    "url": "see README.MD"
+  },
+  "bugs": {
+    "url": "https://github.com/CWBudde/cordova-plugin-smtp-client/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-smtp-client",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Basic SMTP client for editing and sending email messages",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=6.2.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=4.0.0"
+    }
+  ],
+  "homepage": "https://github.com/CWBudde/cordova-plugin-smtp-client#readme",
+  "keywords": [
+    "cordova",
+    "smtp",
+    "email",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-smtp-client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CWBudde/cordova-plugin-smtp-client.git"
+  },
+  "version": "2.0.11"
+}

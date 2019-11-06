@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Payment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    
+</head>
+
+<body class="login-page">
+    <div class="container screen-1">
+        <div class="row text-center">
+            <div class="col-12 my-auto screen-1-content">
+                <div class="screen-container">
+
+                    <div class="logo logo-inner">
+                        <a href="#">
+                            <img src="assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="rl-form">
+                        <form action="https://core.newebpay.com/MPG/mpg_gateway" id="loginform" method="POST" target="theWindow">
+                                <input type="hidden" name="MerchantID" value="MS36578352" id="MerchantID">
+                                <input type="hidden" name="RespondType" value="JSON" id="RespondType">
+                                <input type="hidden" name="TimeStamp" id="TimeStamp">
+                                <input type="hidden" name="Version" value="1.5" id="Version">
+                                <input type="hidden" name="MerchantOrderNo" id="MerchantOrderNo">
+                                <input type="hidden" name="Amt" value="100" id="Amt">
+                                <input type="hidden" name="ItemDesc" value="課程點數" id="ItemDesc">
+                                <input type="hidden" name="TradeInfo" id="trade-info">
+                                <input type="hidden" name="TradeSha" id="trade-sha">
+                        </form>
+                    </div>
+                    <div class="btn btn-primary" id="btn-buy">Buy</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- 0612-Additional -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- App & Common Module -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="assets/script/app.js"></script>
+    <script src="assets/script/ui.helper.js"></script>
+
+    <!-- Firebase Module -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-functions.js"></script>
+    <script src="assets/script/firebase.js"></script>
+
+
+    <!-- AES Script Module -->
+    <script src="assets/script/aes.js"></script>
+    <script src="assets/script/sha256.js"></script>
+
+    <!-- Main Script Module-->
+
+    <script src="assets/script/pay-page.js"></script>
+</body>
+
+</html>
